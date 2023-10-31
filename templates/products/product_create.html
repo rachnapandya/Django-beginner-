@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<form action='/create' method="POST"> {% csrf_token %}
+    <!-- <input type="text" name = 'title' placeholder="Your title"/> -->
+
+    {{ form.as_p }} /*It renders out as paragraph tags*/
+    <input type = 'submit' value='Save'/>
+</form>
+
+{% endblock%}
