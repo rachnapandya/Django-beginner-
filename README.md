@@ -1,1 +1,1 @@
-# Django-beginner-
+# E-commerce-Products_portal-Django
